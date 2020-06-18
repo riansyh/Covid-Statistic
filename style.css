@@ -1,0 +1,23 @@
+:root {
+    font-size: 15px;
+}
+
+.text-green {
+    color: #e2d51d;
+}
+
+.text-green::after {
+    content: " ";
+}
+
+#chart {
+    width: 100%;
+    min-height: 450px; 
+    height: 80vw;
+}
+
+@media screen and (max-width: 756px) {
+    :root {
+        font-size: 13px;
+    }
+}
