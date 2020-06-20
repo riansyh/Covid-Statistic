@@ -1,0 +1,32 @@
+:root {
+    font-size: 18px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+body{
+	background-color: #2ecc71;
+}
+
+#chart {
+    width: 100%;
+    min-height: 450px; 
+    height: 80vw;
+}
+
+.warna{
+	background-color: #27ae60;
+	text-align: center;
+}
+
+.warna a{
+	margin:0 auto;
+}
+
+@media screen and (max-width: 756px) {
+    :root {
+        font-size: 13px;
+    }
+}
